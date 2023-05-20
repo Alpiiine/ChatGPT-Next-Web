@@ -12,7 +12,7 @@ const nextConfig = {
       },
       {
         source: "/google-fonts/:path*",
-        destination: "https://fonts.proxy.ustclug.org/:path*",
+        destination: "https://fonts.loli.net/:path*",
       },
     ];
 
