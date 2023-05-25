@@ -11,6 +11,10 @@ const nextConfig = {
         source: "/google-fonts/:path*",
         destination: "https://fonts.loli.net/:path*",
       },
+      {
+        source: "/sharegpt",
+        destination: "https://sharegpt.com/api/conversations",
+      },
     ];
 
     const apiUrl = process.env.API_URL;
